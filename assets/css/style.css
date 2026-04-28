@@ -264,3 +264,20 @@ left: 42.88px;
         padding: 0 5%;
     }
 }
+.about-section{
+    width: 14px;
+height: 664px;
+padding-top: 84px;
+padding-right: 1px;
+padding-bottom: 84px;
+padding-left: 60px;
+
+}
+.about-section img{
+    width: 1176px;
+height: 496px;
+padding-right: 60px;
+gap: 60px;
+
+
+}
