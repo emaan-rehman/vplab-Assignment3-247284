@@ -15,7 +15,7 @@
     min-height: 85vh;
    
     width: 1440px;
-height: 708px;
+height: 508px;
 top: 102px;
 
 
@@ -98,10 +98,9 @@ top: 4px;
     border-left: 12px solid var(--primary-blue);
     overflow: hidden;
     width: 741.59375;
-height: 741.59375;
+height: 518px;
 top: -3.19px;
 left: 100.59px;
-
 
 }
 
@@ -109,11 +108,6 @@ left: 100.59px;
     position: absolute;
     inset: 0;
     z-index: 1;
-    width: 740px;
-height: 740px;
-top: -25.19px;
-left: -21.59px;
-
 
 }
 
@@ -121,8 +115,7 @@ left: -21.59px;
     width: 720px;
 height: 520px;
     object-fit:cover;
-    mix-blend-mode: multiply; 
-    opacity: 0.9;
+  
 }
 
 .hero-phone-overlay {
@@ -159,5 +152,98 @@ height: 520px;
     .hero-phone-overlay {
         width: 241.5px;
       height: 461.25px;
+    }
+}
+
+
+/* TESTIMONIAL SECTION */
+.testimonial-section {
+    background-color: var(--bright-yellow);
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.section-title {
+    font-weight: 800;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    color: var(--dark-navy);
+    line-height: 1.2;
+}
+
+/* HORIZONTAL SCROLL TRACK */
+.review-scroll-container {
+    padding: 20px 0 40px;
+    overflow-x: auto;
+    scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+.review-scroll-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar Chrome/Safari */
+}
+
+.review-track {
+    display: flex;
+    gap: 25px;
+    padding: 0 10%; /* Matches hero text padding */
+}
+
+/* REVIEW CARDS */
+.review-card {
+    background: #fff;
+    min-width: 350px;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.stars {
+    color: var(--bright-yellow);
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.review-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--dark-navy);
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.reviewer-name {
+    font-weight: 800;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* BRAND LOGOS AREA */
+.featured-text {
+    font-weight: 700;
+    color: var(--dark-navy);
+    margin-right: 20px;
+}
+
+.brand-img {
+    height: 25px;
+    filter: grayscale(100%) brightness(0); /* Matches the dark-toned logos in design */
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.brand-img:hover {
+    opacity: 1;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+    .review-card {
+        min-width: 280px;
+        padding: 25px;
+    }
+    
+    .review-track {
+        padding: 0 5%;
     }
 }
