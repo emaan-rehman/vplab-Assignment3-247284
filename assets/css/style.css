@@ -167,7 +167,12 @@ height: 520px;
     font-weight: 800;
     font-size: clamp(1.8rem, 4vw, 2.8rem);
     color: var(--dark-navy);
-    line-height: 1.2;
+height: 91;
+top: 83px;
+left: 96px;
+padding-right: 550.58px;
+padding-bottom: 1px;
+
 }
 
 /* HORIZONTAL SCROLL TRACK */
