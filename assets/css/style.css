@@ -10,7 +10,8 @@
 
 /* HERO SECTION LAYOUT */
 .hero-section {
-    background-color: var(--bg-light-blue);
+    background-color: rgba(243, 248, 255, 1);
+;
     min-height: 85vh;
    
     width: 1440px;
@@ -51,6 +52,23 @@ top: 4px;
 
 }
 
+.btn-signin {
+
+    background-color: var(--primary-blue);
+    color: white !important;
+    border-radius: 50px;
+    padding: 10px 28px;
+    font-weight: 700;
+    border: none;
+    transition: 0.3s ease;
+
+}
+.btn-signin:hover {
+
+    background-color: #353ab3;
+    transform: translateY(-1px);
+
+}
 /* BUTTONS */
 .btn-yellow {
     background-color: var(--bright-yellow);
@@ -101,7 +119,7 @@ left: -21.59px;
 
 .hero-person-img {
     width: 720px;
-height: 720px;
+height: 520px;
     object-fit:cover;
     mix-blend-mode: multiply; 
     opacity: 0.9;
