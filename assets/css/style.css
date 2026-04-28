@@ -226,6 +226,10 @@ padding-bottom: 1px;
 /* BRAND LOGOS AREA */
 .featured-text {
     color:  rgba(2, 3, 59, 1);
+    width: 129px;
+height: 30px;
+top: 31.5px;
+
     margin-right: 20px;
     font-family: Inter;
 font-weight: 800;
@@ -241,15 +245,12 @@ top: 31.5px;
 }
 
 .brand-img {
-    height: 25px;
-    filter: grayscale(100%) brightness(0); /* Matches the dark-toned logos in design */
-    opacity: 0.8;
+    width: 130px;
+height: 95px;
+left: 42.88px;
     transition: 0.3s;
 }
 
-.brand-img:hover {
-    opacity: 1;
-}
 
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
