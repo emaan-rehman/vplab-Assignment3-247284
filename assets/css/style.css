@@ -225,9 +225,19 @@ padding-bottom: 1px;
 
 /* BRAND LOGOS AREA */
 .featured-text {
-    font-weight: 700;
-    color: var(--dark-navy);
+    color:  rgba(2, 3, 59, 1);
     margin-right: 20px;
+    font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 23px;
+line-height: 30px;
+letter-spacing: -0.48px;
+vertical-align: middle;
+width: 129;
+height: 30;
+top: 31.5px;
+
 }
 
 .brand-img {
