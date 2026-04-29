@@ -239,21 +239,20 @@ top: 31.5px;
     width: 130px;
 height: 95px;
 left: 42.88px;
-
     transition: 0.3s;
 }
 /* 5. Fix the About Section width */
 .about-section {
-    width: 100%; /* Changed from 14px */
-    height: auto;
-    padding: 84px 5%;
+    width: 1000px; /* Changed from 14px */
+    height: 600px;
+    padding: 45px 5%;
 }
 
 .about-section img {
-    max-width: 100%; /* Ensures it never goes wider than the screen */
-    height: auto;
-    display: block;
-    margin: 0 auto;
+   width: 1176px;
+height: 540px;
+
+
 }
 /* Update your Features Grid Section */
 .features-grid-section {
