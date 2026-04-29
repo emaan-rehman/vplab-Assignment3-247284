@@ -7,28 +7,14 @@
     --text-muted: #4A4B65;
     --font-main: 'Figtree', sans-serif;
 }
-
-/* HERO SECTION LAYOUT */
-.hero-section {
-    background-color: rgba(243, 248, 255, 1);
-;
-    min-height: 85vh;
-   
-    width: 1440px;
-height: 508px;
-top: 102px;
-
-
-
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+   /* This prevents the horizontal scrollbar */
 }
 
-.hero-text-area {
-    padding: 60px 10%;
-    display: flex;
-    width: 633.5px;
-height: 461.25px;
-    align-items: left;
-}
 
 .hero-title {
     font-weight: 800;
@@ -90,20 +76,40 @@ top: 4px;
     text-decoration: none;
     display: inline-block;
 }
-
-/* RIGHT SIDE VISUAL (FIXED POSITIONING) */
-.hero-visual-area {
-    position: relative;
-    background-color: var(--bright-yellow);
-    border-left: 12px solid var(--primary-blue);
-    overflow: hidden;
-    width: 741.59375;
-height: 518px;
-top: -3.19px;
-left: 100.59px;
-
+/* 1. Remove the fixed 1440px width - this was the main culprit */
+.hero-section {
+    background-color: rgba(243, 248, 255, 1);
+    min-height: 85vh;
+    width: 100%; /* Changed from 1440px to 100% */
+    height: auto; /* Allow height to scale naturally */
+    overflow: hidden; /* Contains the absolute elements */
 }
 
+/* 2. Make the text area flexible */
+.hero-text-area {
+    padding: 40px 5%; /* Use percentages for spacing */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    /* Removed fixed width/height */
+}
+
+/* 3. Fix the visual area and prevent overflow */
+.hero-visual-area {
+    position: relative;
+    overflow: hidden; /* Important: crops any protruding images */
+    min-height: 508px;
+    /* Removed fixed width and 'left' property which pushed it out of bounds */
+}
+
+/* 4. Fix the Phone Overlay Positioning */
+.hero-phone-overlay {
+    position: absolute;
+    top: 50%;
+    left: 20%; /* Adjusted from 50% + translate to keep it within view */
+    transform: translateY(-50%); 
+    z-index: 10;
+    width: 240px; /* Kept fixed size for the phone mockup */
+}
 .hero-bg-tinted {
     position: absolute;
     inset: 0;
@@ -112,22 +118,20 @@ left: 100.59px;
 }
 
 .hero-person-img {
-    width: 720px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+display: block;
+border-radius: 20px 0 0 0; 
+  /*  width: 720px;
 height: 520px;
-    object-fit:cover;
+
+    object-fit:cover;*/ 
   
 }
 
-.hero-phone-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-130%, -50%); 
-    z-index: 10;
-     width: 241.5px;
-      height: 461.25px;
-    max-width: 320px;
-}
+
 
 .mockup-img {
     width: 100%;
@@ -264,20 +268,16 @@ left: 42.88px;
         padding: 0 5%;
     }
 }
-.about-section{
-    width: 14px;
-height: 664px;
-padding-top: 84px;
-padding-right: 1px;
-padding-bottom: 84px;
-padding-left: 60px;
-
+/* 5. Fix the About Section width */
+.about-section {
+    width: 100%; /* Changed from 14px */
+    height: auto;
+    padding: 84px 5%;
 }
-.about-section img{
-    width: 1176px;
-height: 496px;
-padding-right: 60px;
-gap: 60px;
 
-
+.about-section img {
+    max-width: 100%; /* Ensures it never goes wider than the screen */
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
