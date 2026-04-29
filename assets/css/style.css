@@ -85,30 +85,18 @@ top: 4px;
     overflow: hidden; /* Contains the absolute elements */
 }
 
-/* 2. Make the text area flexible */
 .hero-text-area {
-    padding: 40px 5%; /* Use percentages for spacing */
+    padding: 40px 5%; 
     display: flex;
-    align-items: center; /* Center content vertically */
-    /* Removed fixed width/height */
-}
+    align-items: center; 
 
+}
 /* 3. Fix the visual area and prevent overflow */
 .hero-visual-area {
     position: relative;
-    overflow: hidden; /* Important: crops any protruding images */
+    overflow: hidden; 
     min-height: 508px;
-    /* Removed fixed width and 'left' property which pushed it out of bounds */
-}
-
-/* 4. Fix the Phone Overlay Positioning */
-.hero-phone-overlay {
-    position: absolute;
-    top: 50%;
-    left: 20%; /* Adjusted from 50% + translate to keep it within view */
-    transform: translateY(-50%); 
-    z-index: 10;
-    width: 240px; /* Kept fixed size for the phone mockup */
+    
 }
 .hero-bg-tinted {
     position: absolute;
@@ -130,7 +118,15 @@ height: 520px;
     object-fit:cover;*/ 
   
 }
-
+/* 4. Fix the Phone Overlay Positioning */
+.hero-phone-overlay {
+    position: absolute;
+    top: 50%;
+    left: 20%; /* Adjusted from 50% + translate to keep it within view */
+    transform: translateY(-50%); 
+    z-index: 10;
+    width: 240px; /* Kept fixed size for the phone mockup */
+}
 
 
 .mockup-img {
