@@ -242,19 +242,6 @@ left: 42.88px;
 
     transition: 0.3s;
 }
-
-
-/* RESPONSIVENESS */
-@media (max-width: 768px) {
-    .review-card {
-        min-width: 280px;
-        padding: 25px;
-    }
-    
-    .review-track {
-        padding: 0 5%;
-    }
-}
 /* 5. Fix the About Section width */
 .about-section {
     width: 100%; /* Changed from 14px */
@@ -267,4 +254,50 @@ left: 42.88px;
     height: auto;
     display: block;
     margin: 0 auto;
+}
+/* FEATURES GRID STYLES */
+.features-grid-section {
+    background-color: var(--bg-light-blue); /* Match the faint blue background */
+    padding: 100px 0;
+}
+
+.features-main-card {
+    background: #ffffff;
+    border-radius: 45px; /* Large rounded corners from Figma */
+    padding: 60px 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04); /* Subtle elevation shadow */
+}
+
+.grid-title {
+    font-weight: 800;
+    color: var(--dark-navy);
+    font-size: 2.2rem;
+    max-width: 600px;
+    margin: 0 auto 60px;
+}
+
+/* Ensure the images fill their columns properly */
+.feature-col img {
+    width: 100%;
+    max-width: 320px; /* Adjust based on your exported image size */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.feature-col img:hover {
+    transform: translateY(-5px); /* Gentle hover effect */
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+    .review-card {
+        min-width: 280px;
+        padding: 25px;
+    }
+    
+    .review-track {
+        padding: 0 5%;
+    }
 }
