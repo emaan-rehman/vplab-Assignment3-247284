@@ -310,4 +310,12 @@ left: 42.88px;
     .review-track {
         padding: 0 5%;
     }
+    .features-main-card {
+        padding: 40px 20px;
+        border-radius: 30px;
+    }
+    
+    .feature-col img {
+        max-width: 100%; /* Allows it to fit naturally on phone screens */
+    }
 }
