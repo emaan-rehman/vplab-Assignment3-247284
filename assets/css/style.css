@@ -433,7 +433,65 @@ padding-top: 25px;
     background: #fff;
     color: var(--primary-blue);
 }
+/* Container and Background */
+.insights-section {
+  background-color: #f4f8ff; /* Light blueish tint from image */
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+/* Heading Styling */
+.section-title {
+  color: #0a1332; /* Deep navy color */
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  letter-spacing: -1px;
+}
+
+/* Image Container (The selected part) */
+.image-container {
+  max-width: 1056px;
+  margin: 0 auto 40px auto;
+  /* Dashed border to match your selection indicator */
+  border: 1px dashed #3498db;
+  padding: 2px;
+}
+
+.insights-main-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Button Styling */
+.button-wrapper {
+  margin-top: 20px;
+}
+
+.view-all-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #ffc24d; /* Golden yellow */
+  color: #0a1332;
+  text-decoration: none;
+  padding: 14px 36px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.view-all-btn:hover {
+  background-color: #fbb01c;
+  transform: translateY(-2px);
+}
+
+.arrow {
+  margin-left: 10px;
+  font-size: 20px;
+}
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
     .review-card {
