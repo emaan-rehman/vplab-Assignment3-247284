@@ -376,8 +376,42 @@ padding-left: 150px;
     font-size: 1.1rem;
     margin-bottom: 25px;
 }
+/* CTA BANNER */
+.cta-banner {
+    background: linear-gradient(135deg, #3b2dbf, #5a4ff3);
+    padding: 90px 0;
+    color: #fff;
+}
 
+/* TITLE */
+.cta-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
 
+/* SUBTITLE */
+.cta-subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 35px;
+}
+
+/* WHITE OUTLINE BUTTON */
+.btn-outline-white {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 14px 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-outline-white:hover {
+    background: #fff;
+    color: var(--primary-blue);
+}
 
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
