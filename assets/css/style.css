@@ -500,6 +500,7 @@ vertical-align: middle;
   color: #ffffff;
   padding: 70px 40px;
   font-family: sans-serif;
+  padding-left: 150px;
 }
 
 .footer-container {
@@ -591,6 +592,8 @@ opacity: 1;
 /* Image Newsletter Column */
 .newsletter-image-col {
   flex: 0 0 436px; 
+  padding-right: 100px;
+  margin-right: 150px;
   
 }
 
@@ -599,14 +602,10 @@ opacity: 1;
 
 opacity: 1;
 padding-top: 35px;
-padding-right: 36px;
 padding-bottom: 36px;
-padding-left: 36px;
 border-radius: 42px;
 width: 436px;
 height: 351px;
-left: 620px;
-
 opacity: 1;
 
 }
@@ -622,10 +621,8 @@ opacity: 1;
 
 .app-badges-placeholder {
   background: white;
-  width: 315.96875;
+  width: 315.96875px;
 height: 104px;
-top: 387px;
-left: 740.03px;
 opacity: 1;
 border-radius: 12px;
 
