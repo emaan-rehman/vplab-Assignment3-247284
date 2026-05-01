@@ -454,8 +454,6 @@ padding-top: 25px;
 .image-container {
   max-width: 1056px;
   margin: 0 auto 40px auto;
-  /* Dashed border to match your selection indicator */
-  border: 1px dashed #3498db;
   padding: 2px;
 }
 
