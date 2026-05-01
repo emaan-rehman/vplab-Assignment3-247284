@@ -470,16 +470,20 @@ vertical-align: middle;
 }
 
 .view-all-btn {
-  display: inline-flex;
-  align-items: center;
   background-color: rgba(255, 194, 71, 1);
-  color: #0a1332;
+  color:rgba(2, 3, 59, 1);
   text-decoration: none;
   padding: 14px 36px;
   border-radius: 50px;
-  font-weight: 600;
-  font-size: 16px;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 19px;
+line-height: 22.5px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
 }
 
 .view-all-btn:hover {
