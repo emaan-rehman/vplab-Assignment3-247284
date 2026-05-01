@@ -496,43 +496,79 @@ vertical-align: middle;
   font-size: 20px;
 }
 /* RESPONSIVENESS */
+/* Smooth scaling */
+html {
+    font-size: 16px;
+}
+
 @media (max-width: 768px) {
-    .review-card {
-        min-width: 280px;
-        padding: 25px;
+    html {
+        font-size: 15px;
     }
-    
-    .review-track {
-        padding: 0 5%;
+}
+
+@media (max-width: 360px) {
+    html {
+        font-size: 14px;
     }
-    .features-main-card {
-        padding: 40px 20px;
-        border-radius: 30px;
+}
+@media (max-width: 768px) {
+
+    /* HERO */
+    .hero-section .row {
+        flex-direction: column;
     }
-    
-    .feature-col img {
-        max-width: 100%; /* Allows it to fit naturally on phone screens */
+
+    .hero-text-area {
+        padding: 60px 40px;
+        text-align: center;
     }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-subtitle {
+        margin: 0 auto;
+    }
+
+    .hero-btns {
+        justify-content: center;
+    }
+
+    .hero-visual-area {
+        height: 320px;
+        border-left: none;
+        border-top: 10px solid var(--primary-blue);
+    }
+
+    .hero-phone-overlay {
+        width: 150px;
+    }
+
+    /* STORY + HELP */
     .help-content {
         padding-left: 0;
         text-align: center;
         margin-top: 40px;
     }
 
-    .story-card {
-        margin: auto;
-        text-align: center;
+    /* REVIEWS */
+    .reviews-wrapper {
+        transform: translateX(-100px);
     }
-     .cta-title {
+
+    .review-img {
+        width: 240px;
+    }
+
+    /* CTA */
+    .cta-title {
+        font-size: 1.8rem;
+    }
+
+    /* INSIGHTS */
+    .insights-title {
         font-size: 1.6rem;
-    }
-
-    .cta-subtitle {
-        font-size: 1rem;
-    }
-
-    .cta-buttons a {
-        width: 100%;
-        text-align: center;
     }
 }
