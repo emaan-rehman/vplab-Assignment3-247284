@@ -553,6 +553,7 @@ vertical-align: middle;
   border: none;
   border-top: 1px solid #ffffff33;
   margin-bottom: 30px;
+  margin-right: 100px;
 }
 
 .nav-links ul {
@@ -566,6 +567,8 @@ vertical-align: middle;
   margin-bottom: 20px;
   color: #ffc247; /* The specific yellow from your properties panel */
   font-weight: bold;
+ 
+
 }
 
 .nav-links li::before {
@@ -581,32 +584,21 @@ vertical-align: middle;
 
 /* Image Newsletter Column */
 .newsletter-image-col {
-  flex: 0 0 436px; /* Fixes width to match your Figma 'Hug' width */
+  flex: 0 0 436px; 
+  
 }
 
-/* Column 3 Styling (Newsletter) */
-.newsletter-card {
-  background-color: rgba(255, 194, 71, 1);
-; /* Golden yellow */
-  color: #02033b;
-  border-radius: 40px;
-
+.newsletter-image-container {
+  margin-bottom: 30px;
+  width: 436px;
+height: 232.390625px;
+opacity: 1;
 padding-top: 35px;
-padding-right: 46px;
+padding-right: 36px;
 padding-bottom: 36px;
 padding-left: 36px;
 border-radius: 42px;
 
-}
-
-.newsletter-card h3 {
-  font-size: 24px;
-  margin-top: 0;
-}
-
-.newsletter-image-container {
-  width: 100%;
-  margin-bottom: 30px;
 }
 
 .newsletter-img {
@@ -619,14 +611,17 @@ border-radius: 42px;
 
 .app-badges-placeholder {
   background: white;
-  height: 120px;
-  width: 100%;
-  border-radius: 20px;
+  width: 315.96875;
+height: 104px;
+top: 387px;
+left: 740.03px;
+opacity: 1;
+border-radius: 12px;
+
 }
 
 .footer-bottom-text {
   max-width: 1200px;
-  margin: 60px auto 0;
   font-size: 11px;
   color: #b0b0c0;
   line-height: 1.6;
