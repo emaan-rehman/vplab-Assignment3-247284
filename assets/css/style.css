@@ -397,4 +397,14 @@ padding-left: 150px;
     .feature-col img {
         max-width: 100%; /* Allows it to fit naturally on phone screens */
     }
+    .help-content {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .story-card {
+        margin: auto;
+        text-align: center;
+    }
 }
