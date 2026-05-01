@@ -14,7 +14,6 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-   /* This prevents the horizontal scrollbar */
 }
 .nav-link{
     color: rgba(2, 3, 59, 1);
@@ -91,14 +90,13 @@ top: 4px;
     text-decoration: none;
     display: inline-block;
 }
-/* 1. Remove the fixed 1440px width - this was the main culprit */
 .hero-section {
         position: relative;
     background-color: rgba(243, 248, 255, 1);
    padding-top: 45px;
-    width: 100%; /* Changed from 1440px to 100% */
-    height: auto; /* Allow height to scale naturally */
-    overflow: hidden; /* Contains the absolute elements */
+    width: 100%; 
+    height: auto; 
+    overflow: hidden; 
 }
 .hero-text-area {
     padding: 40px 5%; 
@@ -106,7 +104,7 @@ top: 4px;
     align-items: center; 
 
 }
-/* 3. Fix the visual area and prevent overflow */
+
 .hero-visual-area {
     position: relative;
     overflow: hidden; 
@@ -120,14 +118,14 @@ top: 4px;
     z-index: 1;
 
 }
-/* 4. Fix the Phone Overlay Positioning */
+
 .hero-phone-overlay {
     position: absolute;
     top: 50%;
-    left: 9%; /* Adjusted from 50% + translate to keep it within view */
+    left: 9%; 
     transform: translateY(-50%); 
     z-index: 10;
-    width: 240px; /* Kept fixed size for the phone mockup */
+    width: 240px;
 }
 .hero-person-img {
 width: 100%;
@@ -140,7 +138,7 @@ display: block;
 .mockup-img {
     width: 100%;
     border-radius: 35px;
-     /* Matches Figma depth */
+   
 }
 /* RESPONSIVENESS */
 @media (max-width: 991px) {
@@ -186,17 +184,13 @@ padding-bottom: 1px;
 .review-scroll-container {
     padding: 20px 0 40px;
     overflow-x: auto;
-    scrollbar-width: none; /* Hide scrollbar Firefox */
-}
-
-.review-scroll-container::-webkit-scrollbar {
-    display: none; /* Hide scrollbar Chrome/Safari */
+    scrollbar-width: none; 
 }
 
 .review-track {
     display: flex;
     gap: 25px;
-    padding: 0 10%; /* Matches hero text padding */
+    padding: 0 10%; 
 }
 
 /* REVIEW CARDS */
@@ -257,9 +251,9 @@ height: 95px;
 left: 42.88px;
     transition: 0.3s;
 }
-/* 5. Fix the About Section width */
+
 .about-section {
-    width: 1000px; /* Changed from 14px */
+    width: 1000px; 
     height: 600px;
     padding: 45px 5%;
 }
@@ -268,9 +262,8 @@ left: 42.88px;
    width: 1176px;
 height: 500px;
 
-
 }
-/* Update your Features Grid Section */
+
 .features-grid-section {
     background-color: var(--bg-light-blue);
     padding: 80px 0;
@@ -279,11 +272,10 @@ height: 500px;
 .features-main-card {
     background: rgba(255, 255, 255, 1);
     border-radius: 45px;
-    /* REDUCE PADDING: This pulls the content in from the edges */
+
     padding: 60px 80px; 
 ;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
-    /* CONSTRAIN WIDTH: This prevents the section from getting too wide on large monitors */
     max-width: 840px;
     margin: 0 auto;
 }
@@ -292,19 +284,17 @@ height: 500px;
     font-weight: 800;
     color: var(--dark-navy);
     font-size: 2.2rem;
-    max-width: 550px; /* Forces the title to wrap like the design */
+    max-width: 550px; 
     margin: 0 auto 60px;
     line-height: 1.2;
 }
 
-/* FIX THE "ZOOMED" IMAGES */
 .feature-col {
     display: flex;
     justify-content: center;
 }
 
 .feature-col img {
-    /* SET A FIXED SCALE: This is the key to the "zoom out" look */
     width: 100%;
     max-width: 280px; 
     height: auto;
@@ -327,8 +317,6 @@ padding-left: 150px;
     padding: 50px;
     border-radius: 40px;
     max-width: 460px;
-
-
 }
 
 .story-card h3 {
@@ -433,7 +421,7 @@ padding-top: 25px;
 }
 /* Container and Background */
 .insights-section {
-  background-color: #f4f8ff; /* Light blueish tint from image */
+  background-color: #f4f8ff; 
   padding: 60px 20px;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -453,7 +441,7 @@ vertical-align: middle;
 
 }
 
-/* Image Container (The selected part) */
+/* Image Container  */
 .image-container {
   max-width: 1056px;
   margin: 0 auto 40px auto;
@@ -510,7 +498,7 @@ vertical-align: middle;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* Keeps columns aligned at the top */
+  align-items: flex-start; 
   gap: 40px;
 }
 
@@ -573,7 +561,7 @@ opacity: 1;
 .nav-links li {
   list-style: none;
   margin-bottom: 20px;
-  color: #ffc247; /* The specific yellow from your properties panel */
+  color: #ffc247; 
   font-weight: bold;
  
 
@@ -616,7 +604,6 @@ opacity: 1;
   width: 100%;
   height: auto;
   display: block;
-  /* Ensures the image respects the rounded design */
   border-radius: 40px; 
   
 }
@@ -724,7 +711,6 @@ html {
     flex: 1 1 45%;
   }
 
-  /* Make newsletter full width */
   .newsletter {
     flex: 1 1 100%;
   }
