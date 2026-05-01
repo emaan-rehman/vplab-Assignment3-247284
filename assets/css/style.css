@@ -663,3 +663,29 @@ html {
         text-align: center;
     }
 }
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1140px;
+    }
+
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .hero-text-area {
+        padding: 120px 10%;
+    }
+
+    .hero-phone-overlay {
+        max-width: 360px;
+    }
+
+    .story-card {
+        padding: 60px;
+    }
+
+    .cta-banner {
+        padding: 120px 0;
+    }
+}
