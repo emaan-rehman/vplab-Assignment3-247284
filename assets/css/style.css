@@ -317,16 +317,18 @@ height: 500px;
 }
 /* SECTION BACKGROUND */
 .story-help-section {
-    background: #f3f7ff;
+    background: white;
     padding: 100px 0;
+padding-left: 150px;
 }
-
 /* LEFT CARD */
 .story-card {
-    background: linear-gradient(135deg, #ffc247, #f7a928);
+    background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
     padding: 50px;
     border-radius: 40px;
-    max-width: 520px;
+    max-width: 460px;
+
+
 }
 
 .story-card h3 {
@@ -344,7 +346,7 @@ height: 500px;
 
 /* BUTTON (PURPLE) */
 .btn-purple {
-    background: var(--primary-blue);
+   background: rgba(67, 53, 222, 1);
     color: #fff;
     padding: 14px 30px;
     border-radius: 50px;
