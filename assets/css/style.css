@@ -498,7 +498,7 @@ vertical-align: middle;
 .main-footer {
   background-color: #02033b;
   color: #ffffff;
-  padding: 80px 40px;
+  padding: 70px 40px;
   font-family: sans-serif;
 }
 
@@ -546,7 +546,7 @@ vertical-align: middle;
 /* Column 2 Styling (Nav) */
 .footer-brand {
   font-size: 32px;
-  margin: 0 0 10px 0;
+ 
 }
 
 .brand-divider {
