@@ -572,3 +572,94 @@ html {
         font-size: 1.6rem;
     }
 }
+@media (max-width: 360px) {
+
+    /* NAVBAR */
+    .nav-link {
+        padding: 10px 0 !important;
+        text-align: center;
+    }
+
+    .btn-signin {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* HERO */
+    .hero-section .row {
+        flex-direction: column;
+    }
+
+    .hero-text-area {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-yellow,
+    .btn-outline-navy {
+        width: 100%;
+    }
+
+    .hero-visual-area {
+        height: 250px;
+        border-left: none;
+        border-top: 8px solid var(--primary-blue);
+    }
+
+    .hero-phone-overlay {
+        width: 120px;
+    }
+
+    /* STORY + HELP */
+    .story-card {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .help-content {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    /* REVIEWS */
+    .reviews-wrapper {
+        transform: translateX(-60px);
+    }
+
+    .review-img {
+        width: 200px;
+    }
+
+    /* CTA BANNER */
+    .cta-title {
+        font-size: 1.3rem;
+    }
+
+    .cta-buttons a {
+        width: 100%;
+    }
+
+    /* INSIGHTS */
+    .insight-card {
+        padding: 15px;
+    }
+
+    /* FOOTER */
+    .footer {
+        text-align: center;
+    }
+}
