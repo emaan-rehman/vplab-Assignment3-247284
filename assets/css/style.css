@@ -554,11 +554,16 @@ vertical-align: middle;
   border-top: 1px solid #ffffff33;
   margin-bottom: 30px;
   margin-right: 100px;
+   width: 188px;
+left: 372px;
+gap: 60px;
+opacity: 1;
 }
 
 .nav-links ul {
   list-style: none;
   padding: 0;
+  
 }
 
 /* Nav Link Styling (The dashes) */
@@ -580,6 +585,7 @@ vertical-align: middle;
   color: inherit;
   text-decoration: none;
   font-size: 18px;
+  
 }
 
 /* Image Newsletter Column */
