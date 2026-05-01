@@ -16,7 +16,6 @@ html, body {
 }
 .nav-link{
     color: rgba(2, 3, 59, 1);
-    font-family: Inter;
 font-weight: 800;
 font-style: Extra Bold;
 font-size: 19px;
@@ -33,7 +32,6 @@ opacity: 1;
 
 .hero-title {
     font-weight: 800;
-    font-family: Inter;
 font-style: Extra Bold;
 font-size: 60px;
 line-height: 75px;
@@ -392,7 +390,6 @@ padding-left: 345px;
 /* TITLE */
 .cta-title {
     margin-bottom: 10px;
-    font-family: Inter;
 font-weight: 800;
 font-style: Extra Bold;
 font-size: 34px;
@@ -407,7 +404,6 @@ vertical-align: middle;
 .cta-subtitle {
    
     margin-bottom: 35px;
-    font-family: Inter;
 font-weight: 400px;
 font-style: Regular;
 font-size: 18px;
@@ -442,12 +438,17 @@ padding-top: 25px;
 }
 
 /* Heading Styling */
-.section-title {
-  color: #0a1332; /* Deep navy color */
-  font-size: 42px;
-  font-weight: 800;
+.insights-section-title {
+  color:  rgba(2, 3, 59, 1);
   margin-bottom: 40px;
-  letter-spacing: -1px;
+font-weight: 800px;
+font-style: Extra Bold;
+font-size: 56px;
+line-height: 75px;
+letter-spacing: -1.2px;
+text-align: center;
+vertical-align: middle;
+
 }
 
 /* Image Container (The selected part) */
@@ -471,7 +472,7 @@ padding-top: 25px;
 .view-all-btn {
   display: inline-flex;
   align-items: center;
-  background-color: #ffc24d; /* Golden yellow */
+  background-color: rgba(255, 194, 71, 1);
   color: #0a1332;
   text-decoration: none;
   padding: 14px 36px;
