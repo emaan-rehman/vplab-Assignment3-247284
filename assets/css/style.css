@@ -6,6 +6,8 @@
     --bg-light-blue: #F3F7FF;
     --text-muted: #4A4B65;
     --font-main: 'Figtree', sans-serif;
+    background: rgba(243, 248, 255, 1);
+
 }
 html, body {
   width: 100%;
