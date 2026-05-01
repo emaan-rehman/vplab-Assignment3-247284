@@ -713,6 +713,40 @@ img {
     .insights-title {
         font-size: 1.6rem;
     }
+    .main-footer {
+    padding: 60px 30px 30px;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .footer-col {
+    flex: 1 1 45%;
+  }
+
+  /* Make newsletter full width */
+  .newsletter {
+    flex: 1 1 100%;
+  }
+
+  .newsletter-card {
+    padding: 30px;
+  }
+
+  .newsletter-form {
+    flex-direction: row;
+  }
+
+  .app-badges-placeholder {
+    width: 60%;
+  }
+
+  .footer-bottom-text {
+    padding: 0 20px;
+    text-align: center;
+  }
 }
 @media (max-width: 360px) {
 
