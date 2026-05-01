@@ -93,13 +93,13 @@ top: 4px;
 }
 /* 1. Remove the fixed 1440px width - this was the main culprit */
 .hero-section {
+        position: relative;
     background-color: rgba(243, 248, 255, 1);
    padding-top: 45px;
     width: 100%; /* Changed from 1440px to 100% */
     height: auto; /* Allow height to scale naturally */
     overflow: hidden; /* Contains the absolute elements */
 }
-
 .hero-text-area {
     padding: 40px 5%; 
     display: flex;
@@ -120,12 +120,6 @@ top: 4px;
     z-index: 1;
 
 }
-.hero-person-img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-display: block;
-}
 /* 4. Fix the Phone Overlay Positioning */
 .hero-phone-overlay {
     position: absolute;
@@ -135,6 +129,13 @@ display: block;
     z-index: 10;
     width: 240px; /* Kept fixed size for the phone mockup */
 }
+.hero-person-img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+}
+
 
 .mockup-img {
     width: 100%;
@@ -314,6 +315,67 @@ height: 500px;
 .feature-col img:hover {
     transform: translateY(-5px); /* Gentle hover effect */
 }
+/* SECTION BACKGROUND */
+.story-help-section {
+    background: #f3f7ff;
+    padding: 100px 0;
+}
+
+/* LEFT CARD */
+.story-card {
+    background: linear-gradient(135deg, #ffc247, #f7a928);
+    padding: 50px;
+    border-radius: 40px;
+    max-width: 520px;
+}
+
+.story-card h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--dark-navy);
+    margin-bottom: 15px;
+}
+
+.story-card p {
+    color: var(--dark-navy);
+    font-size: 1.05rem;
+    margin-bottom: 25px;
+}
+
+/* BUTTON (PURPLE) */
+.btn-purple {
+    background: var(--primary-blue);
+    color: #fff;
+    padding: 14px 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-purple:hover {
+    background: #353ab3;
+}
+
+/* RIGHT SIDE */
+.help-content {
+    padding-left: 60px;
+}
+
+.help-content h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--dark-navy);
+    margin-bottom: 15px;
+}
+
+.help-content p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+
 
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
