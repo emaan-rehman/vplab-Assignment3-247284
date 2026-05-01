@@ -496,10 +496,10 @@ vertical-align: middle;
   font-size: 20px;
 }
 .main-footer {
-  background-color: #02033b; /* Deep navy */
+  background-color: #02033b;
   color: #ffffff;
-  padding: 80px 40px 40px;
-  font-family: 'Arial', sans-serif;
+  padding: 80px 40px;
+  font-family: sans-serif;
 }
 
 .footer-container {
@@ -507,8 +507,8 @@ vertical-align: middle;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start; /* Keeps columns aligned at the top */
   gap: 40px;
-  flex-wrap: wrap;
 }
 
 .footer-col {
@@ -560,24 +560,28 @@ vertical-align: middle;
   padding: 0;
 }
 
+/* Nav Link Styling (The dashes) */
 .nav-links li {
+  list-style: none;
   margin-bottom: 20px;
-  position: relative;
-  padding-left: 25px;
+  color: #ffc247; /* The specific yellow from your properties panel */
+  font-weight: bold;
 }
 
 .nav-links li::before {
-  content: "—"; /* The orange dash */
-  position: absolute;
-  left: 0;
-  color: #ffc24d;
+  content: "—";
+  margin-right: 15px;
 }
 
 .nav-links a {
-  color: #ffc24d;
+  color: inherit;
   text-decoration: none;
-  font-weight: bold;
   font-size: 18px;
+}
+
+/* Image Newsletter Column */
+.newsletter-image-col {
+  flex: 0 0 436px; /* Fixes width to match your Figma 'Hug' width */
 }
 
 /* Column 3 Styling (Newsletter) */
@@ -600,30 +604,17 @@ border-radius: 42px;
   margin-top: 0;
 }
 
-.newsletter-form {
-  display: flex;
-  background: white;
-  border-radius: 30px;
-  padding: 5px;
-  margin-top: 20px;
+.newsletter-image-container {
+  width: 100%;
+  margin-bottom: 30px;
 }
 
-.newsletter-form input {
-  border: none;
-  padding: 10px 20px;
-  border-radius: 30px;
-  flex-grow: 1;
-  outline: none;
-}
-
-.newsletter-form button {
-  background: #02033b;
-  color: white;
-  border: none;
-  padding: 10px 25px;
-  border-radius: 25px;
-  font-weight: bold;
-  cursor: pointer;
+.newsletter-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* Ensures the image respects the rounded design */
+  border-radius: 40px; 
 }
 
 .app-badges-placeholder {
