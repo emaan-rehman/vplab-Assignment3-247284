@@ -378,23 +378,44 @@ padding-left: 150px;
 }
 /* CTA BANNER */
 .cta-banner {
-    background: linear-gradient(135deg, #3b2dbf, #5a4ff3);
-    padding: 90px 0;
+   background: linear-gradient(180deg, #2925CC 0%, #4B48E5 100%);
     color: #fff;
+    width: 1440;
+height: 407.5px;
+padding-top: 84px;
+padding-right: 345px;
+padding-bottom: 84px;
+padding-left: 345px;
+
 }
 
 /* TITLE */
 .cta-title {
-    font-size: 2.2rem;
-    font-weight: 800;
     margin-bottom: 10px;
+    font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 34px;
+line-height: 45px;
+letter-spacing: -0.72px;
+text-align: center;
+vertical-align: middle;
+
 }
 
 /* SUBTITLE */
 .cta-subtitle {
-    font-size: 1.1rem;
-    opacity: 0.9;
+   
     margin-bottom: 35px;
+    font-family: Inter;
+font-weight: 400px;
+font-style: Regular;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+padding-top: 25px;
 }
 
 /* WHITE OUTLINE BUTTON */
