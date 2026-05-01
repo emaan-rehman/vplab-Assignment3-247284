@@ -801,9 +801,82 @@ img {
     }
 
     /* FOOTER */
-    .footer {
-        text-align: center;
-    }
+
+  .main-footer {
+    padding: 50px 20px 30px;
+    text-align: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-col {
+    min-width: 100%;
+  }
+
+  /* Branding */
+  .footer-tagline {
+    font-size: 20px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .footer-links-small {
+    margin-top: 10px;
+  }
+
+  /* Nav */
+  .footer-brand {
+    font-size: 26px;
+  }
+
+  .nav-links ul {
+    text-align: center;
+  }
+
+  .nav-links li {
+    padding-left: 0;
+  }
+
+  .nav-links li::before {
+    display: none;
+  }
+
+  /* Newsletter */
+  .newsletter-card {
+    padding: 25px;
+    border-radius: 25px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    gap: 10px;
+    background: transparent;
+    padding: 0;
+  }
+
+  .newsletter-form input {
+    width: 100%;
+    border-radius: 25px;
+  }
+
+  .newsletter-form button {
+    width: 100%;
+  }
+
+  .app-badges-placeholder {
+    width: 100%;
+  }
+
+  /* Bottom text */
+  .footer-bottom-text {
+    padding: 0 10px;
+    text-align: center;
+  }
 }
 @media (min-width: 1200px) {
 
