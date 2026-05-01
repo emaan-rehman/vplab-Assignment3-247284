@@ -462,4 +462,16 @@ padding-top: 25px;
         margin: auto;
         text-align: center;
     }
+     .cta-title {
+        font-size: 1.6rem;
+    }
+
+    .cta-subtitle {
+        font-size: 1rem;
+    }
+
+    .cta-buttons a {
+        width: 100%;
+        text-align: center;
+    }
 }
