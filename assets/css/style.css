@@ -253,8 +253,9 @@ left: 42.88px;
 }
 
 .about-section {
-    width: 1000px; 
-    height: 600px;
+   max-width: 600px;
+width: 100%;
+height: auto;
     padding: 45px 5%;
 }
 
@@ -368,13 +369,7 @@ padding-left: 150px;
 .cta-banner {
    background: linear-gradient(180deg, #2925CC 0%, #4B48E5 100%);
     color: #fff;
-    width: 1440;
-height: 407.5px;
-padding-top: 84px;
-padding-right: 345px;
-padding-bottom: 84px;
-padding-left: 345px;
-
+  padding: 80px 20px;
 }
 
 /* TITLE */
