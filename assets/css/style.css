@@ -937,4 +937,20 @@ img {
     .cta-banner {
         padding: 120px 0;
     }
+    .footer-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .newsletter-card {
+    padding: 50px;
+  }
+
+  .footer-tagline {
+    font-size: 26px;
+  }
+
+  .nav-links a {
+    font-size: 18px;
+  }
 }
