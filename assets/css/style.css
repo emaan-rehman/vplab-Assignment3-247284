@@ -32,12 +32,12 @@ opacity: 1;
 }
 
 .hero-title {
-    font-weight: 800;
+    font-weight: 700;
     font-family: Inter;
 font-style: Extra Bold;
 font-size: 60px;
 line-height: 75px;
-letter-spacing: -1.2px;
+letter-spacing: -2.2px;
 vertical-align: middle;
     color: var(--dark-navy);
   
@@ -49,7 +49,7 @@ vertical-align: middle;
     width: 597.8875122070312px;
 height: 82px;
 top: 4px;
-
+letter-spacing: -1.2px;
 
 }
 
@@ -102,7 +102,7 @@ top: 4px;
 .hero-text-area {
     padding: 40px 5%; 
     display: flex;
-    align-items: center; 
+    align-items: left; 
 
 }
 
@@ -262,7 +262,7 @@ height: auto;
 }
 
 .about-section img {
-   width: 1000px;
+   width: 1176px;
 height: 500px;
 
 }
